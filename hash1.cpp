@@ -52,9 +52,9 @@ void HashMapTable::displayHashTable() {
   for (int i = 0; i<table_size; i++) {
     cout<<i;
 // traversing at the recent/ current index
-    for (auto j : table[i]) {
-      cout<< " ==> " << j;
-    }
+    for (auto j : table[i]) 
+      cout << " ==> " << j;
+
      cout << endl;
   }
 }
