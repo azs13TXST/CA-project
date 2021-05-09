@@ -73,7 +73,7 @@ void HashTable::deleteItem(int key) {
 void HashTable::displayHash() {
   for (int i = 0; i < capacity; i++) {
     cout << "table[" << i << "]";
-    for (auto x : table[i])
+    for (int x : table[i])
       cout << " --> " << x;
     cout << endl;
   }
