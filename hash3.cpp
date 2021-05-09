@@ -1,6 +1,6 @@
 // Implementing hash table in C++
 
-#include <iostream>
+/*#include <iostream>
 #include <list>
 using namespace std;
 
@@ -94,4 +94,4 @@ int main() {
 
   //h.deleteItem(12);
   h.displayHash();
-}
+}*/
