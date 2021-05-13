@@ -70,7 +70,7 @@ int main()  {
   for (int i = 0; i < n; i++)
     ht.insertElement(arr[i]);
 // deleting element 34 from the hash table
-    ht.deleteElement(34);
+    //ht.deleteElement(34);
 // displaying the final data of hash table
     ht.displayHashTable();
   return 0;
