@@ -50,7 +50,7 @@ void HashMapTable::deleteElement(int key)  {
 // display function to showcase the whole hash table
 void HashMapTable::displayHashTable() {
   for (int i = 0; i<table_size; i++) {
-    //cout<<i;
+    cout<<i;
 // traversing at the recent/ current index
     for (int j : table[i]) 
       cout << " ==> " << j;

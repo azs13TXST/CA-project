@@ -1,5 +1,3 @@
-// Implementing hash table in C++
-
 #include <iostream>
 #include <list>
 using namespace std;
